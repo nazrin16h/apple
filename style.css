@@ -1,0 +1,692 @@
+:root {
+    --blue: #0071e3;
+    --black: #000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+
+.container {
+    padding: 0 8%;
+}
+
+.navbar {
+    background-color: #f2f2f2 !important;
+}
+
+.navmenu {
+    display: none;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.search {
+    color: #333;
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+.container-slider {
+    scrollbar-width: none;
+    overflow-x: scroll;
+}
+
+.container-slider .imgs {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-slider .img {
+    margin: 20px;
+}
+
+.container-slider p {
+    font-size: 0.8em;
+}
+
+.headerbtm {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 10px;
+}
+
+.headerbtm a {
+    text-decoration: none;
+}
+
+#titanium {
+    background-color: #000;
+    text-align: center;
+    color: #8b887eff;
+    padding: 40px;
+}
+
+.new {
+    color: red;
+    font-size: 12px;
+}
+
+#titanium .titanium {
+    background: url('./img/titanium.jpeg')center/contain no-repeat;
+    height: 40px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.buy {
+    display: inline-block;
+    font-size: .8em;
+    width: 50px;
+    padding: 10px 15px;
+    background-color: var(--blue);
+    text-decoration: none;
+    color: #fff;
+    border-radius: 30px;
+    margin: 10px 0;
+    transition: all .3s;
+}
+
+.links {
+    padding: 15px 0;
+    display: inline-block;
+}
+
+.links a {
+    text-decoration: none;
+}
+
+.titaniumbtm {
+    background: url('./img/titanium-mobile.jpeg')center/contain no-repeat;
+    height: 50vh;
+    width: 100%;
+    margin: 10px auto;
+}
+
+#titanium .price {
+    color: #fff;
+    padding: 10px;
+}
+
+#newphoria {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.newphoriabtm {
+    background: url('./img/newphoria.jpeg') center/contain no-repeat;
+    height: 70vh;
+    width: 100%;
+}
+
+#love {
+    text-align: center;
+    background-color: #fbfbfb;
+    padding: 40px;
+}
+
+.teg {
+    color: var(--blue);
+}
+
+.lovebtm {
+    background: url('./img/lovebg.jpeg') center/contain no-repeat;
+    height: 50vh;
+}
+#love h2{
+    color: #1e3791;
+    font: normal bold 3em Arial, Helvetica, sans-serif;;
+}
+
+#guidtour {
+    margin: 10px;
+    text-align: center;
+}
+
+#guidtour p {
+    font: 500 1.5em /.8 Arial;
+    padding: 5px;
+}
+
+.guidbtm {
+    background: url('./img/applebg12.jpeg')center/cover no-repeat;
+    height: 50vh;
+}
+
+.txtcenter {
+    text-align: center;
+}
+
+#which h1 {
+    padding: 30px 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#which hr {
+    width: 60%;
+    margin: auto;
+}
+#which .links {
+    text-align: center;
+}
+
+.phones {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 20px;
+}
+
+.phonecard {
+    width: 50%;
+}
+
+.phonesimg {
+    padding: 0 20px;
+}
+
+.phoneimg2 {
+    height: 255px;
+    width: 156px;
+    object-fit: contain;
+    padding: 20px 0 10px 0;
+}
+
+.features div {
+    padding: 20px 10px;
+    font: 0.8em /2 Arial;
+}
+
+.features img {
+    width: 40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.txtcenter .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.txtcenter .links a {
+    margin: 20px 0;
+}
+
+#waystosave .container {
+    background: #f2f2f2 !important;
+    padding: 0 8%;
+}
+
+#waystosave .container h2,
+h2.txtcenter,
+#getmore h2 {
+    padding-top: 50px;
+    font: 500 2.8em / 1 Arial;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+#whatmakes h2 {
+    font: 500 2.5em / 1 Arial;
+    font-weight: bold;
+}
+
+#whatmakes {
+    background: #f2f2f2;
+}
+
+.allcard h5 {
+    padding: 30px;
+    font-size: 1.5em;
+}
+
+h5.txtcenter,
+h3.txtcenter,
+h2.txtcenter {
+    font: 600 1.3em Arial;
+}
+
+.card h5 {
+    padding: 50px;
+    font-size: 2em;
+}
+
+.card {
+    border: 0px !important;
+    background: #fff !important;
+    border-radius: 0 !important;
+    margin: 10px 0;
+}
+
+.cardimg1 {
+    height: 30vh;
+    background: url('./img/savei_phone.jpg')center/contain no-repeat;
+}
+
+.cardimg2 {
+    height: 20vh;
+    background: url('./img/appleemoji.jpeg')center/ contain no-repeat;
+}
+
+.cardtext p {
+    color: #6e6e73;
+    margin: 10px;
+}
+
+.cardimg3 {
+    height: 30vh;
+    background: url('./img/aplepphone.jpeg')center/contain no-repeat;
+}
+
+.cardimg4 {
+    height: 30vh;
+    background: url('./img/applebg6.jpeg')center/contain no-repeat;
+    margin: 0 15px;
+}
+
+p.txtcenter {
+    padding: 0 20px;
+}
+
+.mag {
+    background: #fff;
+    margin: 20px 10px;
+    padding: 10px;
+}
+
+.magimg {
+    height: 30vh;
+    background: url('./img/applephones.jpeg')center/contain no-repeat;
+}
+
+.airimg {
+    height: 30vh;
+    background: url('./img/airtag__b81h4czx41yq_medium.jpg')center /contain no-repeat;
+}
+
+.magic {
+    background: #fff !important;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+.magicimg {
+    height: 30vh;
+    background: url('./img/applebg9.jpeg')center/contain no-repeat;
+}
+
+.magic.txtcenter h3 {
+    font: 600 2.5em Arial;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.ios {
+    padding: 20px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.bggrey {
+    background: #f2f2f2;
+}
+
+.sw_img {
+    margin: 10px 0;
+    height: 40vh;
+    background: url('./img/applebg.jpeg') center/cover no-repeat;
+}
+
+.prv_img {
+    height: 40vh;
+    background: url('./img/privacy.jpg')center/cover no-repeat;
+}
+
+.one_img {
+    height: 40px;
+    margin: 20px;
+    background: url('./img/apple_one.jpg') center/contain no-repeat;
+}
+
+.black {
+    background: var(--black);
+    color: #fff;
+}
+
+.sec-top {
+    font-size: 25px;
+    margin: 10px;
+}
+
+.tv_img {
+    height: 40vh;
+    background: url('./img/tv+_bg.png')center/cover no-repeat;
+}
+
+.music_img {
+    height: 40vh;
+    background: url('./img/music_bg.jpg')center/cover no-repeat;
+}
+
+.fitness_img {
+    height: 40vh;
+    background: url('./img/fitness_bg.jpg')center/cover no-repeat;
+}
+
+.arcade_img {
+    height: 40vh;
+    background: url('./img/arcade_bg.png')center/cover no-repeat;
+}
+
+.news_img {
+    height: 40vh;
+    background: url('./img/news_bg.jpeg')center -100px/contain no-repeat;
+}
+
+.gift_img {
+    height: 40vh;
+    background: url('./img/gift_bg.jpg')center /cover no-repeat;
+}
+
+.app_img {
+    height: 40vh;
+    background: url('./img/research_app.jpg')center /contain no-repeat;
+}
+
+#about p,
+#about li {
+    color: #0000007A;
+    margin: 15px;
+}
+
+#about hr {
+    margin: 10px;
+}
+
+#about span {
+    padding-left: 50px;
+}
+
+footer {
+    font-size: .8em;
+    color: #000000bd !important;
+}
+
+.container-f {
+    background: #fff;
+    margin: 20px;
+}
+
+.f-head {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.f-head i {
+    font-size: 20px;
+}
+
+.footermenu {
+    margin: 20px 0;
+}
+
+.ingridient {
+    list-style: none;
+}
+
+.ingridient li a {
+    text-decoration: none;
+    color: #000
+}
+
+button.accordion-button {
+    background: #fff !important;
+    color: #000 !important;
+}
+#app .container{
+    background: #fff;
+}
+.desk-menu{
+    display: none;
+}
+@media screen and (min-width: 768px) {
+    .navbar-toggler {
+        display: none;
+    }
+
+    .navmenu {
+        width: 700px;
+        color: #000;
+        display: flex;
+        flex-direction: row;
+        font-size: 0.8em;
+        text-align: center;
+        list-style: none;
+        margin: 8px;
+        margin-left: 8rem;
+        gap: 20px;
+    }
+    
+    .navmenu li a {
+        text-decoration: none;
+        color: #000;
+        font-weight: 500;
+    }
+    
+    .slider .imgs {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .titaniumbtm {
+        width: 60%;
+        background: url('./img/titanium-pc.png')center/contain no-repeat;
+    }
+    
+    .love {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .lovebtm{
+        width:50%;
+        height: 100vh;
+    }
+    .guidbtm{
+        height: 100vh;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    #guidtour{
+        border-radius: 30px;
+        position: relative;
+    }
+    .guidtour{
+        position: absolute;
+        color: #fff;
+        margin: 30vh 30px;
+        text-align: left;
+    }
+    .guidtour h2{
+        font:500 2.5em Arial;
+        margin: 20px 0;
+    }
+    #guidtour .links {
+        border-radius: 30px;
+        background-color: #ffffff63;
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+    }
+    #guidtour .links a{
+        color: #000;
+    }
+    .phonecard{
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .features p{
+        font-size: 12px;
+    }
+    #which .txtcenter{
+        margin:0 40%;
+    }
+    #waystosave .container{
+        max-width: 100%;
+        margin: auto;
+    }
+    .cards{
+        display: flex;
+        flex-direction: row;
+    }
+    .card{
+        margin: 10px;
+        height: 200px;
+    }
+    .links{
+        margin: auto;
+    }
+    .card-top{
+        position: absolute;
+        width: 450px;
+        margin:0 30%;
+    }
+    .card-top .links.txtcenter{
+        margin: auto;
+    }
+    .cardimg4{
+        height: 80vh;
+        background: url('./img/applebg6.jpeg')25%/cover no-repeat;
+        margin: 0;
+    }
+    .mag{
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    .magimg{
+        width:50%;
+        height: 60vh;
+    }
+    
+    .serv{
+        width: 800px;
+    }
+    .sw h3{
+        width: 300px;
+        margin: auto;
+        font-size: 2.5em;
+    }
+    .accessories h3.txtcenter{
+        font-weight: 600;
+        margin: 20px 0 30px 0;
+        font-size: 2.8em;
+    }
+    .accessories .mag-top{
+        width: 50%;
+    }
+    .airimg{
+        width:50%;
+        height: 60vh;
+        order: -1;
+    }
+    .magicimg{
+        height: 50vh;
+    }
+    .services{
+        display: flex;
+        flex-direction: row;
+        padding: 100px 20px;
+    }
+    .ios_btm{
+        height: 50vh;
+        background: url('./img/ios17.jpg')center/cover no-repeat;
+    }
+    .ios-flex{
+        display: flex;
+        gap: 20px;
+    }
+    .ios-flex .sw, .ios-flex .privacy{
+        width: 50%;
+    }
+    .One{
+        display: flex;
+    }
+    .one_img{
+        width: 50%;
+        display: inline-block;
+    }
+    .onebtm{
+        order: -1;
+        height: 50vh ;
+        width: 100%;
+        background: url('./img/applebg2.jpeg')center/contain no-repeat;
+    }
+    .box1,.box2,.box3{
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .boxs .sw{
+        width: 50%;
+    }
+    .app-cont{
+        padding: 20px 0;
+        background: #fff;
+        margin: 20px 0;
+    } 
+    .app-cont h2{
+        font-size: 2.8em;
+    }
+    .footermenu{
+        display: none;
+    }
+    label a{
+        color: #000;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    .d-ing{
+        list-style: none;
+        padding: 0 0 16px 0;
+    }
+    .d-ing li a{
+        margin:0;
+    }
+    .d-ing li a{
+        color: #000;
+        text-decoration: none;
+    }
+    .desk-menu{
+        display: flex;
+        margin:20px 150px ;
+        gap: 50px;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    .f-head{
+        margin-top: 30px;
+    }
+    .fbtm{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
