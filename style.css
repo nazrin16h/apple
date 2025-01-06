@@ -20,7 +20,10 @@ body {
 .navbar {
     background-color: #f2f2f2 !important;
 }
-
+.navbar-toggler {
+    border: none!important;
+    box-shadow: none !important;
+}
 .navmenu {
     display: none;
 }
@@ -29,11 +32,16 @@ body {
     text-decoration: none;
     color: #000;
 }
-
+.d-flex .search{
+    padding-top:10px ;
+}
 .search {
+    display: flex;
     color: #333;
     text-decoration: none;
-    margin-left: 200px;
+}
+.search i{
+    margin-left: 10px ;
 }
 
 .container-slider {
@@ -125,7 +133,7 @@ body {
 
 .newphoriabtm {
     background: url('./img/newphoria.jpeg') center/contain no-repeat;
-    height: 70vh;
+    height: 40vh;
     width: 100%;
 }
 
@@ -524,6 +532,9 @@ button.accordion-button {
     .guidtour h2{
         font:500 2.5em Arial;
         margin: 20px 0;
+    }
+    .newphoriabtm {
+        height: 60vh;
     }
     #guidtour .links {
         border-radius: 30px;
