@@ -469,6 +469,9 @@ button.accordion-button {
 .desk-menu{
     display: none;
 }
+footer .fbtm ,p {
+    margin: 10px;
+}
 @media screen and (min-width: 768px) {
     .navbar-toggler {
         display: none;
@@ -491,6 +494,9 @@ button.accordion-button {
         text-decoration: none;
         color: #000;
         font-weight: 500;
+    }
+    .d-flex .search{
+        padding-bottom: 10px;
     }
     
     .slider .imgs {
